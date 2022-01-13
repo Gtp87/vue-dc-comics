@@ -182,7 +182,7 @@ export default {
       text-transform: uppercase;
       padding: 2em 0;
       .sign-up {
-          border: 2px solid lightblue;
+          border: 2px solid #0282F9;
           padding: 1em;
           a {
               text-decoration: none;
@@ -194,7 +194,7 @@ export default {
           align-items: center;
           h3 {
               padding-right: 2em;
-              color: lightblue;
+              color: #0282F9;
           }
           ul li {
               display: inline-block;
