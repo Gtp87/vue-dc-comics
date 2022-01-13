@@ -76,7 +76,31 @@
         </div>
   </div>
   <div class="footer-bottom">
-    <div class="container"></div>
+    <div class="container">
+      <div class="sign-up">
+          <a href="#">sign-up now!</a>
+      </div>
+      <div class="social">
+        <h3>follow us</h3>
+        <ul>
+          <li>
+              <img src="../assets/img/footer-facebook.png" alt="">
+          </li>
+          <li>
+              <img src="../assets/img/footer-twitter.png" alt="">
+          </li>
+          <li>
+              <img src="../assets/img/footer-youtube.png" alt="">
+          </li>
+          <li>
+              <img src="../assets/img/footer-pinterest.png" alt="">
+          </li>
+          <li>
+              <img src="../assets/img/footer-periscope.png" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </footer>
 </template>
@@ -112,43 +136,73 @@ export default {
 }
 
 
-  .footer-center {
-    background-image: url(../assets/img/footer-bg.jpg);
-    .container {
-      .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
-      .background-logo {
-        padding: 2em 0 2em 0;
-        background-image: url('../assets/img/dc-logo-bg.png');
-        background-repeat: no-repeat;
-        background-position-x: 100%;
-        background-position-y: 50%;
-        .first-col, .second-col, .third-col {
-            float: left;
-            width: 15%;
-            h3 {
-                text-transform: uppercase;
-                padding: 0.8em 0;
-                color: white;
-            }
-            ul {
-                list-style: none;
-                li {
-                    padding-bottom: 0.5em;
-                    font-size: 0.9em;
-                    a {
-                        text-decoration: none;
-                        color: #959595;
-                    }
+.footer-center {
+  background-image: url(../assets/img/footer-bg.jpg);
+  .container {
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    .background-logo {
+      padding: 2em 0 2em 0;
+      background-image: url('../assets/img/dc-logo-bg.png');
+      background-repeat: no-repeat;
+      background-position-x: 100%;
+      background-position-y: 50%;
+      .first-col, .second-col, .third-col {
+        float: left;
+        width: 15%;
+        h3 {
+            text-transform: uppercase;
+            padding: 0.8em 0;
+            color: white;
+        }
+        ul {
+            list-style: none;
+            li {
+                padding-bottom: 0.5em;
+                font-size: 0.9em;
+                a {
+                    text-decoration: none;
+                    color: #959595;
                 }
             }
         }
-              
-      }
-          
-    }
+      }     
+    }   
   }
+}
+
+.footer-bottom {
+  background-color: #303030;
+  .container {
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+      padding: 2em 0;
+      .sign-up {
+          border: 2px solid lightblue;
+          padding: 1em;
+          a {
+              text-decoration: none;
+              color: white;
+          }
+      }
+      .social {
+          display: flex;
+          align-items: center;
+          h3 {
+              padding-right: 2em;
+              color: lightblue;
+          }
+          ul li {
+              display: inline-block;
+              padding: 0 0.5em;
+          }
+      }
+  }
+}
+
+
 </style>
