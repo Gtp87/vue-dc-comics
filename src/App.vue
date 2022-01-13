@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <Header />
-    <Main />
-    <Footer />
+    <!-- <Main />
+    <Footer /> -->
     <!-- <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   </div>
@@ -11,16 +11,16 @@
 <script>
 // import HelloWorld from "./components/HelloWorld.vue";
 import Header from "./components/Header.vue";
-import Main from "./components/Main.vue";
-import Footer from "./components/Footer.vue";
+// import Main from "./components/Main.vue";
+// import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
     // HelloWorld,
     Header,
-    Main,
-    Footer,
+    // Main,
+    // Footer,
   },
 };
 </script>
