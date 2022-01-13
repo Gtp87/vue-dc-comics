@@ -26,20 +26,36 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    
     header {
     display: flex;
-    
+    padding: 1em 0;
+        .header-sx {
+            width: 30%;
+        }
+        .header-dx {
+            width: 70%;
+            align-items: center;
+            justify-content: end;
+            display: flex;
+        }
     }
     ul {
         display: flex;
         li {
+            display: flex;
             list-style-type: none;
-            margin: 0 1em;
-            justify-content: end;
-            justify-items: center;
             a {
                 text-decoration: none;
                 text-transform: uppercase;
+                font-weight: bold;
+                color: black;
+                padding: 2em 0;
+                margin: 0 1em;
+            }
+            .active {
+                color: #0C7CEC;
+                border-bottom: 3px solid #0C7CEC;
             }
         }
     }
