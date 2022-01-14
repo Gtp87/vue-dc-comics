@@ -108,7 +108,7 @@ export default {
 </script >
 
 <style lang="scss" scoped>
-
+@import "../assets/scss/partials/_variables.scss";
 main {
     background-color: #1C1C1C;
 }
@@ -123,7 +123,7 @@ main {
     background-color: #1C1C1C;
     position: relative;
     .main-title {
-        background-color: #0282F9;
+        background-color: $colorDcComics;
         padding: 0.5em 1.5em;
         text-transform: uppercase;
         color: white;

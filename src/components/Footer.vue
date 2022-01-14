@@ -112,9 +112,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/partials/_variables.scss";
   .footer-top {
   padding: 3em 0;
-  background-color: #0282F9;
+  background-color: $colorDcComics;
   ul {
     display: flex;
     justify-content: space-between;
