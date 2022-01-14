@@ -22,6 +22,7 @@
 
 <script>
 export default {
+    name: 'Header'
 }
 </script>
 
@@ -36,7 +37,7 @@ export default {
         .header-dx {
             width: 70%;
             align-items: center;
-            justify-content: end;
+            justify-content: flex-end;
             display: flex;
         }
     }
